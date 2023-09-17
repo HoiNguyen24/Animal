@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .Signin-Form {
+            background-color: palegoldenrod;
+            width: 350px;
+            height: 350px;
+            margin-left: 50px;
+            line-height: 30px;
+        }
+        .title {
+            margin-left: 10px;
+            color: blue;
+        }
+        #Caption {
+            text-align: center;
+            background-color: deepskyblue;
+        }
+        #Grade {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+<form action="" class="Signin-Form">
+    <h2 id="Caption">Đơn đăng kí</h2>
+    <div class="title">
+        <label for="FullName">Họ và tên</label>
+        <input type="text" id ="FullName">
+    </div>
+    <div class="title">
+        <label for="BirthDay">Ngày sinh</label>
+        <input type="text" id="BirthDay">
+    </div>
+    <div class="title">
+        <p>Giới tính
+            <input type="radio" id="male">
+            <label for="male">Nam</label>
+            <input type="radio" id="Female">
+            <label for="Female">Nữ</label>
+        </p>
+    </div >
+    <div class="title">
+        <label for="Address">Địa chỉ</label>
+        <input type="text" id="Address">
+    </div>
+    <div>
+        <label for="Grade" class="title">Lớp</label>
+        <select name="Grade" id="Grade">
+            <option>--Chọn Lớp--</option>
+            <option>Lớp 1</option>
+            <option>Lớp 2</option>
+            <option>Lớp 3</option>
+            <option>Lớp 4</option>
+            <option>Lớp 5</option>
+            <option>Lớp 6</option>
+            <option>Lớp 7</option>
+            <option>Lớp 8</option>
+            <option>Lớp 9</option>
+            <option>Lớp 10</option>
+            <option>Lớp 11</option>
+            <option>Lớp 12</option>
+        </select>
+    </div>
+    <div class="title">
+        <label for="YourEmail">Email</label>
+        <input type="email" id="YourEmail">
+    </div>
+    <div class="title">
+        <label for="PhoneNumber">Số điện thoại</label>
+        <input type="number" id="PhoneNumber">
+    </div>
+    <div class="title">
+        <button type="submit">Đăng Kí</button>
+        <button type="reset">Nhập Lại</button>
+    </div>
+</form>
+</body>
+</html>

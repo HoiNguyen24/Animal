@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    #calendar-lab td {
+         border: 1px solid black;
+
+
+    }
+    #calendar-lab {
+        border-collapse: collapse;
+        width: 500px;
+        height: 200px;
+    }
+    .Subject {
+        text-align: center;
+
+    }
+    .Information-class td{
+        column-count: 2;
+        column-gap: 0px;
+        color: dodgerblue;
+    }
+    #Caption {
+        margin-left: 155px;
+        color: dodgerblue;
+    }
+    #row2 {
+        background-color: orange!important;
+    }
+    #Day {
+        background-color: yellow;
+        text-align: center;
+    }
+    #white {
+        background-color: white;
+    }
+    .rightside {
+        text-align: right;
+    }
+  </style>
+</head>
+<body>
+    <h1 id="Caption">Thời khóa biểu</h1>
+    <table class="Information-class">
+      <tr >
+        <td>Lớp:T0908I</td>
+        <td class="rightside">Thời gian học:13h30- 17h30</td>
+      </tr>
+      <tr>
+        <td>Giảng viên: KhoaNV</td>
+        <td class="rightside">Ngày học: Thứ 3,5,7</td>
+      </tr>
+      <tr>
+          <td>Phòng học: Class3/Lab3</td>
+      </tr>
+    </table>
+    <table id="calendar-lab">
+         <tr id="Day">
+           <td colspan="3" id="white"></td>
+           <td>Thứ 3</td>
+           <td>Thứ 5</td>
+           <td>Thứ 7</td>
+         </tr>
+      <tr id="row2">
+        <td>Tuần</td>
+        <td>Ngày bắt đầu</td>
+        <td>Ngày kết thúc</td>
+        <td colspan="3" class="Subject">Môn học</td>
+      </tr>
+        <tr>
+            <td>01</td>
+            <td>01/09/2009</td>
+            <td>05/05/2009</td>
+            <td>Cf-T1,L1</td>
+            <td>CF-T2,L2</td>
+            <td>CF-T3,l3</td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>08/09/2009</td>
+            <td>12/09/2009</td>
+            <td>CF-T4,L4</td>
+            <td>CF-Written Test</td>
+            <td>C- T1,L1</td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td>...</td>
+            <td>...</td>
+            <td>...</td>
+            <td>...</td>
+            <td>...</td>
+        </tr>
+    </table>
+</body>
+</html>
